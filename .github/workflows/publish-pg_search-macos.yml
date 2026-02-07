@@ -64,6 +64,18 @@ jobs:
           - name: macOS 15 (Sequoia)
             runner: macos-15
             pg_version: 18
+          - name: macOS 26 (Tahoe)
+            runner: macos-26
+            pg_version: 15
+          - name: macOS 26 (Tahoe)
+            runner: macos-26
+            pg_version: 16
+          - name: macOS 26 (Tahoe)
+            runner: macos-26
+            pg_version: 17
+          - name: macOS 26 (Tahoe)
+            runner: macos-26
+            pg_version: 18
 
     steps:
       # We force reinstall git to make sure it is in PATH
